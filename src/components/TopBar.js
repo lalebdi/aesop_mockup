@@ -3,10 +3,18 @@ import React, { Component } from 'react'
 export class TopBar extends Component {
     render() {
         return (
-            <div>
-                <h1>Top Bar here</h1>
+            <div className="top-bar" style={styles.div}>
+                <p>Top Bar here</p>
             </div>
         )
+    }
+}
+
+
+const styles = { 
+    div:{
+        backgroundColor : "black",
+        color :"white"
     }
 }
 

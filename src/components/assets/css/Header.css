@@ -1,0 +1,33 @@
+
+
+.big-wrapper{
+    background-image: url(../images/Aesop-Homepage-Banner.jpg);
+    position: fixed;
+    min-width: 100%;
+    min-height: 50%;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* margin: 15px; */
+    /* padding: 5px; */
+}
+
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
