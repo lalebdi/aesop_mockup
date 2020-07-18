@@ -13,8 +13,12 @@ export class TopBar extends Component {
 
 const styles = { 
     div:{
-        backgroundColor : "black",
-        color :"white"
+        backgroundColor : "#252525",
+        color :"#FFFEF3",
+        height: "10vh",
+        alignItems: "center",
+        display: "flex",
+        flexDirection: "column"
     }
 }
 
