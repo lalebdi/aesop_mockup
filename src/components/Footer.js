@@ -16,6 +16,37 @@ const styles = {
     footer:{
         backgroundColor : "#252525",
         color :"#FFFEF3",
+        height: "9vh",
+        alignItems: "center",
+        display: "flex",
+        flexDirection: "row",
+        paddingLeft: "5vw"
+    }
+}
+
+export default Footer
+
+
+/*
+This is for the top bar:
+import React, { Component } from 'react'
+
+
+export class TopBar extends Component {
+    render() {
+        return (
+            <div className="top-bar" style={styles.div}>
+                <p>Top Bar here</p>
+            </div>
+        )
+    }
+}
+
+
+const styles = { 
+    div:{
+        backgroundColor : "#252525",
+        color :"#FFFEF3",
         height: "10vh",
         alignItems: "center",
         display: "flex",
@@ -23,4 +54,6 @@ const styles = {
     }
 }
 
-export default Footer
+export default TopBar
+
+*/

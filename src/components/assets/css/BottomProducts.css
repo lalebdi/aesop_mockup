@@ -1,0 +1,74 @@
+.big-wrapper2{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.top-section{
+    background-color: #FFFeF3;
+    color : #333;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.formulations{
+    background-color: #FFFeF3;
+    color : #333;
+    width: 20%;
+}
+
+.products-lineup{
+    background-color: #FFFeF3;
+    color : #333;
+    width: 80%;
+}
+
+.middle-section{
+    background-color: #FFFeF3;
+    color : #333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left-side{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.right-side{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.bottom-section{
+    background-color: #FFFeF3;
+    color : #333;
+    display: flex;
+    flex-direction: row;
+}
+
+.contact{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.right-bottom{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.left-column{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.right-column{
+    background-color: #FFFeF3;
+    color : #333;
+}
+
+.imgs{
+    width: 265px;
+    height: 261px;
+}

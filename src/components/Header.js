@@ -17,7 +17,7 @@ export class Header extends Component {
                 </div>
                 <div className="header-body">
                 <h1> Aēsop </h1>
-                <div className="description">
+                <div className="description1">
                 <h3>Formulation for skin, hair, home and body</h3>
                 <p>Created with sensory pleasure in mind.</p>
                 </div>

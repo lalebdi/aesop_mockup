@@ -10,7 +10,6 @@ export class TopBar extends Component {
     }
 }
 
-
 const styles = { 
     div:{
         backgroundColor : "#252525",

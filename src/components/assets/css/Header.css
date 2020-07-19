@@ -2,7 +2,7 @@
 
 .big-wrapper{
     background-image: url(../images/Aesop-Homepage-Banner.jpg);
-    position: fixed;
+    position: relative;
     min-width: 100%;
     min-height: 75%;
     background-size: cover;
@@ -32,14 +32,21 @@
     margin-left: 15%;
 }
 
+@font-face{
+    font-family: "Zapf";
+    src: url(../fonts/zapf_humanist_601_bt.ttf);
+}
+
+
 .header-body{
     display: flex;
     flex-direction: row;
     justify-content: left;
     margin-left: 5%;
+    font-family: Zapf;
 }
 
-.description{
+.description1{
     display: flex;
     flex-direction: column;
     justify-content: center;

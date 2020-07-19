@@ -1,0 +1,43 @@
+
+.each-slide > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+.description2{
+  background-color: #FFFeF3;
+  display: flex;
+  flex-direction: row;
+  color : #333;
+  margin: 10px;
+}
+
+.design{
+  width: 30%;
+  text-align: left;
+  padding: 10px;
+}
+
+.store-finder{
+  width: 70%;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 18px;
+}
+
+.btn{
+  border: 1px solid grey;
+  background-color: #FFFeF3;
+  box-shadow: 1px 2px #bdbdbd;
+  color: #333;
+}
