@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+.item1 {
+  width: 265px;
+  height: 261px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.item2 {
+  width: 265px;
+  height: 261px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.item3 {
+  width: 265px;
+  height: 261px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.item4 {
+  width: 265px;
+  height: 261px;
+}
+
+.item5 {
+  width: 265px;
+  height: 261px;
+}
+
+.products2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.prod2Description {
+  margin-left: 50px;
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.prod2Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
 }
+
+.kits2 {
+  display: flex;
+}
+
+.kits2Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.products3 {
+  display: flex;
+}
+
+.prod3Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.prod3Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+@font-face {
+  font-family: "Zapf";
+  src: url(./components/assets/font/zapf_humanist_601_bt.ttf);
+}
+
+body {
+  background-color: #FFFEF3;
+  font-family: Zapf;
+}
+
