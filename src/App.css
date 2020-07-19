@@ -25,6 +25,8 @@
 
 .products2 {
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .prod2Description {
@@ -40,6 +42,8 @@
 
 .kits2 {
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .kits2Description {
@@ -49,6 +53,8 @@
 
 .products3 {
   display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .prod3Description {
@@ -72,3 +78,46 @@ body {
   font-family: Zapf;
 }
 
+.products1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.prod1Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.prod1Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.kits1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.kits1Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.kits1Image {
+  display: flex;
+  flex-direction: row;
+  max-width: 25%;
+  margin-left: 20px;
+}
+
+.kitImg {
+  width: 652px;
+  height: 366px;
+}
+
+button {
+
+}
