@@ -1,6 +1,14 @@
+@font-face{
+    font-family: "Suisse";
+    src: url(../fonts/SuisseIntl-Regular.ttf);
+  }
+
 .big-wrapper2{
     background-color: #FFFeF3;
     color : #333;
+    margin-left: 10px;
+    padding: 10px;
+    font-family: Suisse;
 }
 
 .top-section{
@@ -21,6 +29,13 @@
     background-color: #FFFeF3;
     color : #333;
     width: 80%;
+    display: flex;
+
+}
+
+.imgs{
+    width: 265px;
+    height: 261px;
 }
 
 .middle-section{
@@ -68,7 +83,3 @@
     color : #333;
 }
 
-.imgs{
-    width: 265px;
-    height: 261px;
-}

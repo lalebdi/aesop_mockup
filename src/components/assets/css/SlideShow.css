@@ -14,12 +14,22 @@
   text-align: center;
 }
 
+@font-face{
+  font-family: "Suisse";
+  src: url(../fonts/SuisseIntl-Regular.ttf);
+}
+
+.big-wrapper{
+  font-family: Suisse;
+}
+
 .description2{
   background-color: #FFFeF3;
   display: flex;
   flex-direction: row;
   color : #333;
-  margin: 10px;
+  /* margin: 10px; */
+  padding-left: 10px;
 }
 
 .design{
