@@ -18,10 +18,10 @@ class Products2 extends React.Component {
             </div>
             <div className="prod2Images">
                 <img className="item5" src={Item5}></img>
-                <img className="item5" src={Item1}></img>
-                <img className="item5" src={Item4}></img>
-                <img className="item5" src={Item3}></img>
-                <img className="item5" src={Item2}></img>
+                <img className="item1" src={Item1}></img>
+                <img className="item4" src={Item4}></img>
+                <img className="item3" src={Item3}></img>
+                <img className="item2" src={Item2}></img>
             </div>
             </div>
             </body>
