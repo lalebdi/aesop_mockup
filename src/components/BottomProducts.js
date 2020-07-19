@@ -33,14 +33,57 @@ import Item6 from './assets/images/Aesop-Kits-Nashville-with-Product-Large-888x7
             <img className="imgs" src = {Item6} alt = "Nashville"/>
           </div>
               <div className ="right-side">
-                <h4>Discover more</h4>
+              <br/>
+                <div className= "left-part">
+                <h3>Discover more</h3>
+                <h4>Kits & duets</h4>
+                <p>Travel</p>
+                <p>Goft Kits</p>
+                <p>Skin</p>
+                <p>Hand & body</p>
+                </div>
+                <div className= "right-part">
+                <br/>
+                <br/>
+                <h4>Hair care</h4>
+                <p>Cleanse</p>
+                <p>Condition</p>
+                <p>Treat</p>
+                <p>Groom</p>
+                </div>
               </div>
           </div>
           <div className ="bottom-section">
-            <div className="contact"> <p>email address</p> </div>
+            <div className="contact">
+              <p>I would like to recieve communications about Aesop products, services, stores, events and matters of cultural interest</p> 
+              <br/>
+              <input type="text" placeholder="Email Address" className="input-field"></input>
+              </div>
             <div className="right-bottom">
-              <div className ="left-column">contact us</div>
-              <div className ="right-column">About</div>
+              <div className ="left-column"> 
+                <strong>Contact us</strong> 
+                <p>Contact us</p>
+                <p>FAQs</p>
+                <p>Delivery and Returns</p>
+                <p>Track your order</p>
+                <p>Check Gift Card Balance</p>
+                <p>Terms and conditions</p>
+                <p>Accessbility</p>
+                </div>
+              <div className ="middle-column">
+              <strong>About</strong>
+                <p>Our story</p>
+                <p>Careers</p>
+                <p>Press</p>
+                <p>Corporate gifts</p>
+                <p>Facial appoitments</p>
+              </div>
+              <div className ="right-column">
+              <strong>Social</strong>
+                <p>Instagram</p>
+                <p>Twitter</p>
+                <p>Linkedin</p>
+              </div>
             </div>
           </div>
           
