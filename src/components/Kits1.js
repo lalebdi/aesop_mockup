@@ -1,9 +1,15 @@
 import React from 'react'
+import { Spring } from 'react-spring/renderprops'
 import Item1 from "./assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png"
 
 class Kits1 extends React.Component {
     render() {
         return (
+            <Spring 
+            from={{opacity: 0, marginTop: -500}} 
+            to = {{opacity: 1, marginTop: 0}}>
+                {props => (
+                    <div style={props}>
             <body>
             <div className="kits1">
                 <div className="kits1Description">
@@ -17,6 +23,9 @@ class Kits1 extends React.Component {
                 
             </div>
             </body>
+            </div>
+            )}
+            </Spring>
         )
     }
 }
