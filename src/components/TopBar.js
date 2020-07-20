@@ -1,14 +1,17 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+// import { Transition } from 'react-spring/renderprops';
 
 export class TopBar extends Component {
     render() {
         return (
+            
             <div className="top-bar" style={styles.div}>
-                <p>Top Bar here</p>
+                <p>Free shipping on everything</p>
             </div>
         )
     }
 }
+
 
 const styles = { 
     div:{
@@ -20,5 +23,6 @@ const styles = {
         flexDirection: "column"
     }
 }
+
 
 export default TopBar

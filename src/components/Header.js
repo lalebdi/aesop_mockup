@@ -21,7 +21,7 @@ export class Header extends Component {
                     <div className="menu-items">Store</div> 
                     <div className="menu-items">Branches</div>
                     </nav>
-                <aside>Login <FiLogIn/></aside>
+                <button className= "login">Login <FiLogIn/></button>
                 </div>
                 <div className="header-body">
                 <h1> Aēsop </h1>
