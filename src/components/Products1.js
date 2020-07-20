@@ -1,4 +1,5 @@
 import React from 'react'
+import { Spring } from 'react-spring/renderprops'
 import Item1 from "./assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png"
 import Item2 from "./assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png"
 import Item3 from "./assets/images/staple_products/Aesop-Skin-Camellia-Nut-Facial-Hydrating-Cream-60mL-large.png"
@@ -8,7 +9,12 @@ import Item5 from "./assets/images/staple_products/Large-PNG-Aesop-Personal-Deod
 class Products1 extends React.Component {
     render() {
         return (
-            <body>
+            <Spring 
+            from={{opacity: 0, marginTop: -500}} 
+            to = {{opacity: 1, marginTop: 0}}>
+                {props => (
+                    <div style={props}>
+                        <body>
             <div className="products1">
             <div className="prod1Description">
                 <h3>A selection of staples</h3>
@@ -23,6 +29,10 @@ class Products1 extends React.Component {
             </div>
             </div>
             </body>
+                    </div>
+                )}
+            </Spring>
+            
         )
     }
 }
