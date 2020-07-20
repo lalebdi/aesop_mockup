@@ -110,14 +110,26 @@ body {
   display: flex;
   flex-direction: row;
   max-width: 25%;
-  margin-left: 20px;
 }
 
 .kitImg {
-  width: 652px;
-  height: 366px;
+  width: 752px;
+  height: 466px;
+  margin-left: 75px;
 }
 
 button {
 
+}
+
+.kits2Img {
+  width: 752px;
+  height: 466px;
+  margin-left: 75px;
+}
+
+.kits2Images {
+  display: flex;
+  flex-direction: row;
+  max-width: 25%;
 }
