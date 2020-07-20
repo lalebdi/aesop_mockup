@@ -18,7 +18,7 @@ class Kits1 extends React.Component {
                     <button>Explore seasonal Gift Kits</button>
                 </div>
                 <div className="kits1Image">
-                    <img className="kitImg" src={Item1}></img>
+                    <img className="kitImg" src={Item1} alt="kits"></img>
                 </div>
                 
             </div>

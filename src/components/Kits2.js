@@ -23,7 +23,7 @@ class Kits2 extends React.Component {
                     <p>All gifts</p>
                 </div>
                 <div className="kits2Images">
-                    <img className="kits2Img" src={Item1}></img>
+                    <img className="kits2Img" src={Item1} alt= " kits"></img>
                 </div>
             </div>
             </body>
