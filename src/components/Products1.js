@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-import React, { Component } from 'react'
-
-export default class componentName extends Component {
-    render() {
-        return (
-            <div>
-                <p>lsdjnva;jvn</p>
-                <div>
-                    <img/>
-                </div>
-            </div>
-        )
-    }
-}
-=======
 import React from 'react'
 import { Spring } from 'react-spring/renderprops'
 import Item1 from "./assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png"
@@ -54,4 +38,3 @@ class Products1 extends React.Component {
 }
 
 export default Products1;
->>>>>>> 12752c73a12af18efafc950ae101713356da6437

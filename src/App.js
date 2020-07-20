@@ -23,11 +23,6 @@ class App extends Component {
   render () {
   return (
     <div className="App">
-      <Products1 />
-      <Kits1 />
-      <Products2 />
-      <Kits2 />
-      <Products3 />
       <TopBar />
       <Header toggle = { this.toggle }/>
       <Transition
@@ -43,9 +38,19 @@ class App extends Component {
             </animated.div>
           ))}
       </Transition>
-      
-      {/* <h1>Group Project</h1> */}
+      <hr/>
+      <Products1 />
+      <hr/>
+      <Kits1 />
+      <hr/>
+      <Products2 />
+      <hr/>
+      <Kits2 />
+      <hr/>
+      <Products3 />
+      <hr/>
       <SlideShow />
+      <hr/>
       <BottomProducts />
       <Footer />
     </div>
