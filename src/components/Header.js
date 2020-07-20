@@ -21,7 +21,7 @@ export class Header extends Component {
                     <div className="menu-items">Store</div> 
                     <div className="menu-items">Branches</div>
                     </nav>
-                <button className= "login">Login <FiLogIn/></button>
+                <button className= "login" onClick= {this.props.toggle}>Login <FiLogIn/></button>
                 </div>
                 <div className="header-body">
                 <h1> Aēsop </h1>
