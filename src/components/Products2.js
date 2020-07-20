@@ -1,4 +1,5 @@
 import React from 'react'
+import { Spring } from 'react-spring/renderprops'
 import Item1 from "./assets/images/aromatic_signature_products/Aesop-Fragrance-Hwyl-Eau-de-Parfum-50mL-Large-684x668px.png"
 import Item2 from "./assets/images/aromatic_signature_products/Aesop-Fragrance-Marrakech-Intense-Parfum-10mL-Large-684x668px.png"
 import Item3 from "./assets/images/aromatic_signature_products/Aesop-Fragrance-Tacit-Eau-de-Parfum-50mL-Large-684x668px.png"
@@ -9,6 +10,11 @@ import Item5 from "./assets/images/aromatic_signature_products/Aesop-Home-Room-S
 class Products2 extends React.Component {
     render() {
         return (
+            <Spring 
+            from={{opacity: 0, marginTop: -500}} 
+            to = {{opacity: 1, marginTop: 0}}>
+                {props => (
+                    <div style={props}>
             <body>
             <div className="products2">
             <div className="prod2Description">
@@ -25,6 +31,9 @@ class Products2 extends React.Component {
             </div>
             </div>
             </body>
+            </div>
+            )}
+            </Spring>
         )
     }
 }
