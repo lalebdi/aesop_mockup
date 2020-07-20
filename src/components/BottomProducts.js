@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Spring } from 'react-spring/renderprops';
 import './assets/css/BottomProducts.css'
 import Item1 from './assets/images/for_all_products/Aesop-Skin-Fabulous-Face-Oil-25mL-Large-684x668px.png';
 import Item2 from './assets/images/for_all_products/Aesop-Skin-In-Two-Minds-Facial-Cleanser-200mL-Large-835x962px.png';
@@ -13,7 +14,14 @@ import Item6 from './assets/images/Aesop-Kits-Nashville-with-Product-Large-888x7
   export default class App extends Component {
     render() {
       return (
-        <div className="big-wrapper2">
+        <Spring
+        from = {{ opacity : 0} }
+        to = {{ opacity : 1 }}
+        config = {{ delay : 1000 , duration : 1000}}
+        >
+            {props => (
+              <div style = {props}>
+            <div className="big-wrapper2">
           <div className ="top-section">
             <div className ="formulations">
               <h5>Nuturing Formulations</h5>
@@ -88,6 +96,12 @@ import Item6 from './assets/images/Aesop-Kits-Nashville-with-Product-Large-888x7
           </div>
           
         </div>
+
+              </div>
+            ) }
+
+        </Spring>
+        
       );
     }
   }

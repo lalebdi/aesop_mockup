@@ -1,11 +1,19 @@
 import React, { Component } from 'react'
+import { Spring } from 'react-spring/renderprops';
 import './assets/css/Header.css';
 import { FiLogIn } from 'react-icons/fi';
+
 
 export class Header extends Component {
     render() {
         return (
-            <div className="big-wrapper" >
+            <Spring
+            from = {{ opacity : 0 , marginTop: -500 }}
+            to = {{ opacity : 1 , marginTop : 0}}
+            >
+                { props => (
+                    <div style = {props}>
+                <div className="big-wrapper" >
                 <div className="nav-bar">
                 <nav className="links">
                     <div className="menu-items">Shop</div> 
@@ -23,6 +31,10 @@ export class Header extends Component {
                 </div>
                 </div>
             </div>
+                    </div>
+                )}
+            </Spring>
+            
         )
     }
 }

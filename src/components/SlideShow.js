@@ -1,5 +1,6 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
+import { Spring } from 'react-spring/renderprops';
 import 'react-slideshow-image/dist/styles.css'
 import './assets/css/SlideShow.css';
 import { FiArrowRight } from 'react-icons/fi';
@@ -11,7 +12,14 @@ import Item5 from "./assets/images/Store-Detail-US-Wynwood-Hero-1-Desktop-2880x1
 
 const SlideShow = () => {
     return (
-      <div className= "big-wrapper">
+      <Spring 
+      from = {{ opacity : 0 , marginTop : -500}}
+      to = {{ opacity : 1 , marginTop : 0}}
+      config = {{ delay : 2000 , duration : 2000}}
+      >
+        { props => (
+          <div style = {props}>
+              <div className= "big-wrapper">
         <div className= "description2">
           <div className="design">
             <div className="top-line"> <h5> Architecture and Design </h5> </div>
@@ -52,6 +60,11 @@ const SlideShow = () => {
         </Slide>
       </div>
       </div>
+          </div>
+        )}
+
+      </Spring>
+      
     )
 }
 

@@ -1,13 +1,25 @@
 import React, { Component } from 'react'
+import { Spring } from 'react-spring/renderprops'
 
 export class Footer extends Component {
     render() {
         return (
-            <div>
-                <footer style={styles.footer}>
-                Aesop Mockup But Better created by Naomi, Cassie and Leah.
-                </footer>
-            </div>
+            <Spring
+            from = {{ opacity : 0 , marginTop : -500}}
+            to = {{ opacity : 1 , marginTop : 0}}
+            config = {{ delay : 3000 , duration : 3000}}>
+                { props => (
+                    <div style = { props }>
+                            <div>
+                                <footer style={styles.footer}>
+                                    Aesop Mockup But Better created by Naomi, Cassie and Leah.
+                                </footer>
+                            </div>
+
+                    </div>
+                )}
+            </Spring>
+            
         )
     }
 }
