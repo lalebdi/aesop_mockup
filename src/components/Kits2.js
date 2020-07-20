@@ -1,9 +1,15 @@
 import React from 'react'
+import { Spring } from 'react-spring/renderprops'
 import Item1 from "./assets/images/gift_image.jpg"
 
 class Kits2 extends React.Component {
     render() {
         return (
+            <Spring 
+            from={{opacity: 0, marginTop: -500}} 
+            to = {{opacity: 1, marginTop: 0}}>
+                {props => (
+                    <div style={props}>
             <body>
             <div className="kits2">
                 <div className="kits2Description">
@@ -17,10 +23,13 @@ class Kits2 extends React.Component {
                     <p>All gifts</p>
                 </div>
                 <div className="kits2Images">
-                    {/* <img src={Item1}></img> */}
+                    <img className="kits2Img" src={Item1}></img>
                 </div>
             </div>
             </body>
+            </div>
+            )}
+            </Spring>
         )
     }
 }
