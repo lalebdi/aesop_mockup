@@ -1,7 +1,135 @@
-.App {
-  text-align: center;
-  /* display: block; */
+.item1 {
+  width: 265px;
+  height: 261px;
+}
+
+.item2 {
+  width: 265px;
+  height: 261px;
+}
+
+.item3 {
+  width: 265px;
+  height: 261px;
+}
+
+.item4 {
+  width: 265px;
+  height: 261px;
+}
+
+.item5 {
+  width: 265px;
+  height: 261px;
+}
+
+.products2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.prod2Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.prod2Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.kits2 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.kits2Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.products3 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.prod3Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.prod3Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+@font-face {
+  font-family: "Zapf";
+  src: url(./components/assets/font/zapf_humanist_601_bt.ttf);
+}
+
+body {
   background-color: #FFFEF3;
-  /* min-width: 90%;
-  min-height: 100%; */
+  font-family: Zapf;
+}
+
+.products1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.prod1Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.prod1Images {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+}
+
+.kits1 {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.kits1Description {
+  margin-left: 50px;
+  width: 30%;
+}
+
+.kits1Image {
+  display: flex;
+  flex-direction: row;
+  max-width: 25%;
+}
+
+.kitImg {
+  width: 752px;
+  height: 466px;
+  margin-left: 75px;
+}
+
+button {
+
+}
+
+.kits2Img {
+  width: 752px;
+  height: 466px;
+  margin-left: 75px;
+}
+
+.kits2Images {
+  display: flex;
+  flex-direction: row;
+  max-width: 25%;
 }
