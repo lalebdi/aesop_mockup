@@ -5,7 +5,7 @@ export class HiddenComponent extends Component {
     render() {
         return (
             <div style={hd}>
-                <h1> I am the hidden component </h1>
+                
             </div>
         )
     }
@@ -13,7 +13,8 @@ export class HiddenComponent extends Component {
 
 
 const hd = {
-    backgroundImage: `url(${Image})` 
+    backgroundImage: `url(${Image})` ,
+    height: "75vh"
 }
 
 export default HiddenComponent

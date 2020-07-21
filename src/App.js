@@ -50,6 +50,7 @@ class App extends Component {
       <Products3 />
       <hr/>
       <SlideShow />
+      <br/>
       <hr/>
       <BottomProducts />
       <Footer />

@@ -4,7 +4,7 @@
   align-items: center;
   justify-content: center;
   background-size: cover;
-  height: 350px;
+  height: 100vh;
 }
 
 .each-slide span {
@@ -21,6 +21,7 @@
 
 .big-wrapper{
   font-family: Suisse;
+  height: 120vh;
 }
 
 .description2{
