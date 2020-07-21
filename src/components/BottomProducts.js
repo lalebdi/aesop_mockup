@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import { Spring } from 'react-spring/renderprops';
-import './assets/css/BottomProducts.css'
+import Carousel from 'react-elastic-carousel';
+import Item from "./Item";
+import './assets/css/BottomProducts.css';
 import Item1 from './assets/images/for_all_products/Aesop-Skin-Fabulous-Face-Oil-25mL-Large-684x668px.png';
 import Item2 from './assets/images/for_all_products/Aesop-Skin-In-Two-Minds-Facial-Cleanser-200mL-Large-835x962px.png';
 import Item3 from './assets/images/for_all_products/Aesop-Skin-Mandarin-Facial-Hydrating-Cream-60mL-large.png';
@@ -8,6 +10,12 @@ import Item4 from './assets/images/for_all_products/Aesop-SkinParsley-Seed-Facia
 import Item5 from './assets/images/for_all_products/AesopSkin-B-Tea-Balancing-Toner-200mL-large.png';
 import Item6 from './assets/images/Aesop-Kits-Nashville-with-Product-Large-888x776px.png';
 
+const breakPoints = [
+  {width : 1 , itemsToShow: 1 },
+  {width : 550 , itemsToShow: 2 },
+  {width : 768 , itemsToShow: 3 },
+  {width : 1200 , itemsToShow: 4 }
+];
 
 
 
@@ -29,11 +37,13 @@ import Item6 from './assets/images/Aesop-Kits-Nashville-with-Product-Large-888x7
               <p> Healthy skin is the product of careful cleansing, nourshing hydrations and protection against environmental factors</p>
             </div>
             <div className ="products-lineup">
-              <img className="imgs" src={Item1} alt ="Products" />
-              <img className="imgs" src={Item2} alt ="Products" />
-              <img className="imgs" src={Item3} alt ="Products" />
-              <img className="imgs" src={Item4} alt ="Products" />
-              <img className="imgs" src={Item5} alt ="Products" />
+            <Carousel breakPoints={breakPoints}>
+                <Item><img className="item1" src={Item1}></img></Item>
+                <Item><img className="item2" src={Item2}></img></Item>
+                <Item><img className="item3" src={Item3}></img></Item>
+                <Item><img className="item4" src={Item4}></img></Item>
+                <Item><img className="item5" src={Item5}></img></Item>
+            </Carousel>
             </div>
           </div>
           <div className ="middle-section">

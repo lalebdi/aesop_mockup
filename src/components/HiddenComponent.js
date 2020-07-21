@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Image from './assets/images/Hiddenbackground.JPG'
 
 export class HiddenComponent extends Component {
     render() {
@@ -12,8 +13,7 @@ export class HiddenComponent extends Component {
 
 
 const hd = {
-    background : "skyblue",
-    color : "white"
+    backgroundImage: `url(${Image})` 
 }
 
 export default HiddenComponent

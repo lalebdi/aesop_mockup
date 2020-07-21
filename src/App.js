@@ -24,7 +24,7 @@ class App extends Component {
   return (
     <div className="App">
       <TopBar />
-      <Header toggle = { this.toggle }/>
+      <Header toggle = { this.toggle } />
       <Transition
       native
       items = {this.state.showHiddenComponent}

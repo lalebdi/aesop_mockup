@@ -1,3 +1,10 @@
+.App{
+  display: block;
+  /* flex-direction: column; */
+  /* justify-content: space-evenly; */
+}
+
+
 .item1 {
   width: 265px;
   height: 261px;
